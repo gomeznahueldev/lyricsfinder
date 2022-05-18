@@ -1,0 +1,12 @@
+{
+  "appName": "Lyrics finder",
+  "title": "Search artists and songs",
+  "description": "Select your language",
+  "labelArtist": "Artist",
+  "labelSong": "Song",
+  "inputArtist": "Michael Jackson",
+  "inputSong": "Thriller",
+  "buttonSearch": "Search",
+  "songNotFound": "You haven't searched anything yet",
+  "inputEmpty": "Please enter a value"
+}

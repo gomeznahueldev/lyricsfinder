@@ -1,0 +1,12 @@
+{
+  "appName": "Buscador de letras",
+  "title": "Buscar artistas y canciones",
+  "description": "Selecciona tu idioma",
+  "labelArtist": "Artista",
+  "labelSong": "Canción",
+  "inputArtist": "Michael Jackson",
+  "inputSong": "Thriller",
+  "buttonSearch": "Buscar",
+  "songNotFound": "Aún no has buscado nada",
+  "inputEmpty": "No puedes dejar los campos vacíos"
+}

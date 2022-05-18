@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+}
+
+header {
+  width: 100%;
+  background-color: #474341;
+  padding: 1rem 0 2rem 0;
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  z-index: 0;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+legend {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+main,
+form {
+  margin: 5rem auto 0 auto;
+  max-width: 1000px;
+  width: 90%;
+  padding: 3rem;
+  background-color: white;
+  box-shadow: -1px 15px 62px -35px rgba(0, 0, 0, 0.96);
+  -webkit-box-shadow: -1px 15px 62px -35px rgba(0, 0, 0, 0.96);
+  -moz-box-shadow: -1px 15px 62px -35px rgba(0, 0, 0, 0.96);
+  border-radius: 0.8rem;
+}
+
+@media (min-width: 768px) {
+  .form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    align-items: center;
+  }
+}
+
+form label {
+  display: block;
+  margin: 1rem 0;
+  color: #474341;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  form label {
+    margin: 0.5rem 0;
+  }
+}
+
+form input[type="text"] {
+  width: 100%;
+  border-radius: 0.3rem;
+  border: 1px solid #cbd5e1;
+  padding: 0.5rem;
+}
+
+form button {
+  background-color: #474341;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: white;
+  padding: 0.8rem;
+  display: block;
+  width: 100%;
+  margin-top: 2rem;
+  transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+  cursor: pointer;
+  background-color: #585451fb;
+}
+
+.alert {
+  background-color: #d51007;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 30px;
+  font-size: 1.6rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.lyric {
+  white-space: pre-wrap;
+}
+
+.btn-lang {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 1rem;
+  cursor: pointer;
+  width: 10%;
+}
+
+.btn-lang__img {
+  width: 45px;
+  height: 45px;
+  margin: 0 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-lang__img:hover {
+  transform: scale(1.2) rotate(-35deg);
+}
+
+.loading {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 1rem 5rem;
+  border-radius: 0.5rem;
+}
