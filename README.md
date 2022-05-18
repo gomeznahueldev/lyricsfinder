@@ -1,6 +1,6 @@
 # Lyrics Finder
 
-This is a Lyrics Finder App. It was mas with React. It was built with create-react-app, Lyrics OVH API and React i18next.
+This is a Lyrics Finder App. It was built with create-react-app, Lyrics OVH API and React i18next.
 
 [create-react-app](https://create-react-app.dev/)
 
